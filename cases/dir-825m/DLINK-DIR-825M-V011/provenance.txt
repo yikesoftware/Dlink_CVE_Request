@@ -1,0 +1,4 @@
+Product: D-Link DIR-825M Hardware A1
+Firmware: 1.1.8.6 (current firmware listed by D-Link Latin America)
+Firmware SHA-256: 3bb7e23c15b71dc20a0f69e33315c37f99e4818c04120dfa7519f1bfe4e23ad0
+Source: D-Link firmware and emulator provenance recorded in this repository.

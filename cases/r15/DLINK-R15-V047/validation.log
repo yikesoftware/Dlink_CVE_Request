@@ -1,0 +1,11 @@
+Remote pack self-test: DLINK-R15-V047 | PASS | crash evidence in serial | {\n  "response_hex": "",\n  "error": "ConnectionResetError(104, 'Connection reset by peer')",\n  "note": "Confirm the documented fatal signal in the device log and Web-process availability."\n}\n
+
+Evidence excerpt:
+[    0.174214] pci 0000:00:12.0: BAR 1: assigned [mem 0x120b0000-0x120b0fff]
+[    0.174503] pci 0000:00:13.0: BAR 1: assigned [io  0x1040-0x107f]
+[    0.174712] pci 0000:00:0a.2: BAR 4: assigned [io  0x1080-0x109f]
+[    0.174915] pci 0000:00:0a.1: BAR 4: assigned [io  0x10a0-0x10af]
+[    1.215147] uhci_hcd 0000:00:0a.2: new USB bus registered, assigned bus number 1
+do_page_fault(): sending SIGSEGV to httpd for invalid write access to 00000000
+[   35.142808] potentially unexpected fatal signal 11.
+[   35.146843] BadVA : 00000000

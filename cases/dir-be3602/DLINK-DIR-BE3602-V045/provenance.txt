@@ -1,0 +1,4 @@
+Product: D-Link DIR-BE3602
+Firmware: 1.04, build 2025-07-21 (newer than public FOTA 1.02; no newer public package located)
+Firmware SHA-256: e09a0c6b9f87c16dd8ee2cdfe70f88553f1ba69a33d6f0fbf7daf5969ea3aa2a
+Source: D-Link firmware and emulator provenance recorded in this repository.

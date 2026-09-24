@@ -1,0 +1,5 @@
+Remote pack self-test: DLINK-DIR-825M-V011 | PASS | callback /W observed | set=\"utf-8\" src=\"/js/initialJS.js\"></script>\n\t<script type=\"text/javascript\" charset=\"utf-8\" src=\"/js/initialCSS.js\"></script>\n</head><body><table class=\"block\" border=\"0\"><h4 align=center>Start PIN successfully!<br><br>You have to run Wi-Fi Protected Setup in client within 2 minutes.</h4>\n<form><input type=button value=\"  OK  \" OnClick=window.location.replace(\"/wlwps.htm\")></form></table></body></html>",\n  "nonce": "DLINK-DIR-825M-V011",\n  "expected_callback_path": "/W"\n}\n
+
+Evidence excerpt:
+192.168.224.1 - - [24/Sep/2026 19:44:03] code 404, message File not found
+192.168.224.1 - - [24/Sep/2026 19:44:03] "GET /W HTTP/1.1" 404 -

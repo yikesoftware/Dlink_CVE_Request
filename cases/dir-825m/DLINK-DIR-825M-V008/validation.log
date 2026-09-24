@@ -1,0 +1,5 @@
+Remote pack self-test: DLINK-DIR-825M-V008 | PASS | callback /DLINK-DIR-825M-V008 observed | return;\n\t\t}\n\n\t\tdocument.getElementById(\"ltefota\").submit();\n\t}\n}\n\nfunction ShowUploadButton()\n{\n\tclearInterval(timerid);\n\ttimerid = setInterval('getUpdateStatus(updateCallbackFunction)', 500);\n}\n\n</script>\n\n</head>\n<BODY onload=\"ShowUploadButton()\">\n\t<div id=\"wrapper\">\n\t\t<div id=\"header\"></div>\n\t\t<div id=\"menu\"></div>\n\t\t<div id=\"menu_edge\"></div>\n\t\t<!-- Conte",\n  "nonce": "DLINK-DIR-825M-V008",\n  "expected_callback_path": "/DLINK-DIR-825M-V008"\n}\n
+
+Evidence excerpt:
+192.168.224.1 - - [24/Sep/2026 19:42:57] code 404, message File not found
+192.168.224.1 - - [24/Sep/2026 19:42:57] "GET /DLINK-DIR-825M-V008 HTTP/1.1" 404 -

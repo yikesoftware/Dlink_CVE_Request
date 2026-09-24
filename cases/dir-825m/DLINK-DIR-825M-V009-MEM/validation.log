@@ -1,0 +1,11 @@
+Remote pack self-test: DLINK-DIR-825M-V009-MEM | PASS | crash evidence in serial | {\n  "status": 0,\n  "elapsed": 0.048678589053452015,\n  "error": "RemoteDisconnected('Remote end closed connection without response')",\n  "response": "",\n  "health_before": 200,\n  "health_after": [\n    "URLError",\n    "URLError",\n    "URLError"\n  ]\n}\n
+
+Evidence excerpt:
+[    0.154527] pci 0000:00:12.0: BAR 1: assigned [mem 0x120b0000-0x120b0fff]
+[    0.154808] pci 0000:00:13.0: BAR 1: assigned [io  0x1040-0x107f]
+[    0.154995] pci 0000:00:0a.2: BAR 4: assigned [io  0x1080-0x109f]
+[    0.155194] pci 0000:00:0a.1: BAR 4: assigned [io  0x10a0-0x10af]
+[    1.095890] uhci_hcd 0000:00:0a.2: new USB bus registered, assigned bus number 1
+watchdog: ERROR: watchdog_write_pidfile: /var/run/watchdog.pid contains pid 820 which is still running; aborting
+caught SIGSEGV, dumping core in /tmp
+[   24.285928] potentially unexpected fatal signal 6.

@@ -1,0 +1,5 @@
+Remote pack self-test: DLINK-DIR-822K-TK-V005 | PASS | callback /W observed | \" src=\"/js/initialJQ.js\"></script>\n\t<script type=\"text/javascript\" charset=\"utf-8\" src=\"/js/initialJS.js\"></script>\n\t<script type=\"text/javascript\" charset=\"utf-8\" src=\"/js/initialCSS.js\"></script>\n</head><body><table class=\"block\" border=\"0\"><h4 align=center>Start PIN successfully!<br><br>You have to run Wi-Fi Protected Setup in client within 2 minutes.</h4>\n<form><input type=button value=\"  OK  \" OnClick=window.location.replace(\"\")></form></table></body></html>"\n}\n
+
+Evidence excerpt:
+192.168.223.1 - - [24/Sep/2026 19:41:33] code 404, message File not found
+192.168.223.1 - - [24/Sep/2026 19:41:33] "GET /W HTTP/1.1" 404 -

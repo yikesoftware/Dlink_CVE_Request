@@ -1,0 +1,4 @@
+Product: D-Link DIR-822K/TK Telkom
+Firmware: V1.00 Telkom, build 2025-06-24 (latest package in D-Link's directory; product is EOL)
+Firmware SHA-256: d5c7cd9a4991ae507e00805f011e6fb05e8baa9ac382201251c0b874cf2b0dba
+Source: D-Link firmware and emulator provenance recorded in this repository.

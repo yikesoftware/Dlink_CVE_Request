@@ -1,0 +1,11 @@
+Remote pack self-test: DLINK-R15-V048 | PASS | controlled crash evidence in serial | {\n  "response_hex": "",\n  "error": "",\n  "note": "Confirm the documented fatal signal in the device log and Web-process availability."\n}\n
+
+Evidence excerpt:
+[    0.162075] pci 0000:00:12.0: BAR 6: assigned [mem 0x120a0000-0x120affff pref]
+[    0.162297] pci 0000:00:12.0: BAR 1: assigned [mem 0x120b0000-0x120b0fff]
+[    0.162584] pci 0000:00:13.0: BAR 1: assigned [io  0x1040-0x107f]
+[    0.162783] pci 0000:00:0a.2: BAR 4: assigned [io  0x1080-0x109f]
+[    0.162986] pci 0000:00:0a.1: BAR 4: assigned [io  0x10a0-0x10af]
+[    1.562619] uhci_hcd 0000:00:0a.2: new USB bus registered, assigned bus number 1
+[   44.868983] potentially unexpected fatal signal 11.
+[   44.873261] BadVA : 37373733

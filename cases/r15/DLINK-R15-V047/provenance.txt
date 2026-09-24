@@ -1,0 +1,4 @@
+Product: D-Link R15 Hardware A1
+Firmware: 1.22 (current official release)
+Firmware SHA-256: 0f467fa1741eff2a9966749b9720b7f52f07161e2bd7e4eba2a9dd0186871b1d
+Source: D-Link firmware and emulator provenance recorded in this repository.
